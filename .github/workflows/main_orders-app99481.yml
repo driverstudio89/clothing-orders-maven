@@ -31,6 +31,6 @@ jobs:
       with:
         app-name: orders-app99481
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_373D515AAB244AE9AFB506BDFA84EB16 }}
-        package: ${{ github.workspace }}/target/*.jar
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA834C61D5294DB59A9FD4BD5B1F5994 }}
+        package: ${{ github.workspace }}/target/*.war
 
